@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tp2</title>
+  <link rel="stylesheet" href="assets/css/">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/normalize.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- //////////////////////////// HEADER -->
+  <div class="background__total">
+    <section class="background__haut">
+      <header class="haut centre">
+        <section class="section accueil">
+          <div class="accueil__titre">
+          <h1>TP - 2 | Titre</h1>
+          <h3>Auteur : Cédric Leclerc</h3>
+          </div>
+          <p id="desc__accueil">Description : Ceci est la description du labo 07, il existe et il est fait.</p>
+            <label class="nav__bouton" for="chk-menu"><img src="https://s2.svgbox.net/hero-outline.svg?ic=menu"
+                alt="menu" height="45" width="45"></label>
+            <input type="checkbox" name="" id="chk-menu">
+            <nav class="nav">
+              <a href="#inscription">Inscription</a><br>
+              <a href="#tableau">Tableau</a><br>
+              <a href="#articles">Articles</a><br>
+              <a href="#galerie">Galerie</a><br>
+              <a href="#video">Vidéo</a><br>
+            </nav>
+            <div class="git__bouton">
+            <a href="https://github.com/CedricLec05/1w1-tp2">Github</a>
+            </div>
+        </section>
+      </header>
+    </section>
+
+      <!-- //////////////////////////// MAIN -->
+    <main class="main centre">
+        <!-- //////////////////////////// INSCRIPTION -->
+      <section id="inscription" class="section inscription">
+        <div class="section__head">
+          <h1 class="section__titre">Inscription</h1>
+          <a class="accueil__bouton" href="#">Accueil</a>
+        </div>
+        <form class="formulaire">
+          <div class="formulaire__div">
+            <label class="formulaire__label" for="txtNom">Nom:</label>
+            <input type="text" id="txtNom" class="formulaire__input" placeholder="Entrez votre nom" />
+
+          </div>
+
+          <div class="formulaire__div">
+            <label class="formulaire__label" for="txtPrenom">Prénom:</label>
+            <input type="text" id="txtPrenom" class="formulaire__input" placeholder="Entrez votre prénom" />
+          </div>
+
+          <div class="formulaire__div">
+            <label class="formulaire__label" for="txtCourriel">Courriel:</label>
+            <input type="email" id="txtCourriel" class="formulaire__input" placeholder="Entrez votre courriel" />
+          </div>
+
+          <div class="formulaire__div">
+            <p>Sélectionner le type de forfait</p>
+            <label for="radForfait_1">Forfait 1</label>
+            <input type="radio" name="radForfait" id="radForfait_1"><br>
+            <label for="radForfait_2">Forfait 2</label>
+            <input type="radio" name="radForfait" id="radForfait_2"><br>
+            <label for="radForfait_3">Forfait 3</label>
+            <input type="radio" name="radForfait" id="radForfait_3">
+          </div class="formulaire__div">
+
+
+          <input type="submit" value="valider" />
+        </form>
+      </section>
+  <!-- //////////////////////////// TABLEAU -->
+      <section id="tableau" class="section tableau">
+        <div class="section__head">
+          <h1 class="section__titre">Tableau</h1>
+          <a class="accueil__bouton" href="#">Accueil</a>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+            </tr>
+          </tfoot>
+        </table>
+
+      </section>
+  <!-- //////////////////////////// ARTICLES -->
+      <section id="articles" class="section articles">
+        <div class="section__head">
+          <h1 class="section__titre">Articles</h1>
+          <a class="accueil__bouton" href="#">Accueil</a>
+        </div>
+        <figure class="article__figure droite">
+          <p>lorem</p>
+          <div class="img__figure">
+          <img id="art1" src="assets/images/castor2.jpg" alt="">
+          <figcaption>castor 1</figcaption>
+          </div>
+        </figure>
+        <figure class="article__figure">
+          <div class="img__figure">
+          <img id="art2" src="assets/images/castor3.jpg" alt="">
+          <figcaption>castor 2</figcaption>
+          </div>
+          <p>Lorem</p>
+        </figure>
+        <figure class="article__figure">
+          <p>lorem</p>
+          <div class="img__figure">
+          <img id="art3" src="assets/images/castor4.jpg" alt="">
+          <figcaption>castor 3</figcaption>
+          </div>
+        </figure>
+
+        <figure class="article__figure">
+          <div class="img__figure">
+          <img id="art4" src="assets/images/castor5.jpg" alt="">
+          <figcaption>castor 4</figcaption>
+          </div>
+          <p>lorem</p>
+        </figure>
+      </section>
+  <!-- //////////////////////////// GALERIE -->
+      <section id="galerie" class="section galerie">
+        <div class="section__head">
+          <h1 class="section__titre">Galerie</h1>
+          <a class="accueil__bouton" href="#">Accueil</a>
+        </div>
+        <section class="section__img">
+          <img id="img1" class="img__galerie" src="assets/images/castor.jpg" alt="">
+          <img id="img2" class="img__galerie" src="assets/images/castor2.jpg" alt="">
+          <img id="img3" class="img__galerie" src="assets/images/castor3.jpg" alt="">
+          <img id="img4" class="img__galerie" src="assets/images/castor4.jpg" alt="">
+          <img id="img5" class="img__galerie" src="assets/images/castor5.jpg" alt="">
+          <img id="img6" class="img__galerie" src="assets/images/castor6.jpg" alt="">
+          <img id="img7" class="img__galerie" src="assets/images/castor7.jpg" alt="">
+          <img id="img8" class="img__galerie" src="assets/images/castor8.jpg" alt="">
+          <img id="img9" class="img__galerie" src="assets/images/castor9.png" alt="">
+          <img id="img10" class="img__galerie" src="assets/images/castor10.jpg" alt="">
+          </section>
+      </section>
+  <!-- //////////////////////////// VIDEO -->
+      <section id="video" class="section video">
+        <div class="section__head">
+          <h1 class="section__titre">Vidéo</h1>
+          <a class="accueil__bouton" href="#">Accueil</a>
+        </div>
+        <figure>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/6d1JVUVcLNs?si=IsDCixT1HakSBZUn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </figure>
+      </section>
+
+    </main>
+      <!-- //////////////////////////// FOOTER -->
+    <section class="background__bas">
+      <footer class="bas centre">
+        <section class="footer__p">
+          <div class="info">
+            <p class="footer__texte">Adresse du Collège</p>
+            <p class="footer__texte">Liens importants</p>
+            <p class="footer__texte">Avis de confidentialité | Privacy Notice</p>
+          </div>
+          <div class="desc">
+            <p class="footer__texte">Description du sujet</p>
+          </div>
+        </section>
+        <div class="reseau">
+          <p class="footer__texte">Liste de réseaux sociaux avec icônes</p>
+        </div>
+      </footer>
+    </section>
+  </div>
+</body>
+
+</html>

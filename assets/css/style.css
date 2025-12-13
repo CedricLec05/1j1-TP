@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "SuperPixel";
+    src: url("../police/Super\ Pixel\ Personal\ Use.ttf") format("TrueType");
+}
+
+@font-face{
+    font-family: "Pixel2";
+    src : url("../police/04B_30__.TTF")format("TrueType");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+canvas {
+    border: 7px dotted rgb(225, 86, 0);
+    background-color: rgb(240, 255, 26);
+}
